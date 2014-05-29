@@ -16,12 +16,8 @@
 
 <!-- G2-specific phone app resources. -->
 <resources>
-    <!-- Flag indicating if the tty is enabled -->
-    <bool name="tty_enabled">true</bool>
-    <!-- Flag indicating if dtmf tone type is enabled -->
-    <bool name="dtmf_type_enabled">true</bool>
-    <!-- Show enabled lte option for lte device -->
-    <bool name="config_enabled_lte" translatable="false">true</bool>
-    <!-- Show cdma auto network mode in (glabal) roaming -->
+    <!-- Flag indicating if the phone is a world phone -->
+    <bool name="world_phone">true</bool>
+    <!-- Show cdma auto network mode in (global) roaming -->
     <bool name="config_show_cdma" translatable="false">true</bool>
 </resources>
