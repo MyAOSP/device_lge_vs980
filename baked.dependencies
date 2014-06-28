@@ -8,5 +8,10 @@
    "repository": "TeamBAKED/kernel_lge_msm8974",
    "target_path": "kernel/lge/msm8974",
    "branch": "kk-4.4"
+ },
+ {
+   "repository": "TeamBAKED/vendor_lge_vs980",
+   "target_path": "vendor/lge/vs980",
+   "branch": "kk-4.4"
  }
 ]
