@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/lge/g2/vs980/vs980-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/vs980/vs980-vendor-blobs.mk)
 $(call inherit-product, device/lge/g2-common/g2.mk)
 
 ## overlays
@@ -25,8 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_network=10 \
 	ro.cdma.home.operator.numeric=311480 \
 	ro.cdma.home.operator.alpha=Verizon \
-	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83 \
-	persist.radio.use_cc_names=true
+	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83
 
 # NFC packages
 PRODUCT_PACKAGES += \
